@@ -19,7 +19,7 @@ class GenerationTest {
   )
 
   @Test def lonelyCellShouldDie() {
-    def generation = Generation(lonelyCell)
+    val generation = Generation(lonelyCell)
 
     val nextGeneration = generation.next
 
@@ -27,7 +27,7 @@ class GenerationTest {
   }
 
   @Test def blockShouldBeStatic() {
-    def generation = Generation(block)
+    val generation = Generation(block)
 
     val nextGeneration = generation.next
 
@@ -35,7 +35,7 @@ class GenerationTest {
   }
 
   @Test def threeLivingCellsCreateLive() {
-    def generation = Generation(reproducable)
+    val generation = Generation(reproducable)
 
     val nextGeneration = generation.next
 
