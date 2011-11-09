@@ -4,5 +4,5 @@
 .project
 .settings/
 target/
-.idea_module
+.idea_modules
 lib_managed/
